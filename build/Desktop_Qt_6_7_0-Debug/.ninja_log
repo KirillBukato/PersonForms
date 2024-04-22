@@ -1,0 +1,11 @@
+# ninja log v5
+2	12	1713778321898843995	PersonForms_autogen/mocs_compilation.cpp	ebc221034cb82a87
+235	1375	1713778264787342352	CMakeFiles/PersonForms.dir/main.cpp.o	e1ecf2f5178a7380
+2	12	1713778321898843995	/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/PersonForms_autogen/mocs_compilation.cpp	ebc221034cb82a87
+1092	1327	1713778323210833731	PersonForms	d9060c98d2942446
+31	159	1713779532283584826	build.ninja	3f8823066182417
+12	1092	1713778322974835573	CMakeFiles/PersonForms.dir/mainwindow.cpp.o	5f591d2a91a5985d
+1	27	0	/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/cmake.verify_globs	789030691311028c
+2	12	1713778321898843995	PersonForms_autogen/timestamp	ebc221034cb82a87
+236	1346	1713778264759342625	CMakeFiles/PersonForms.dir/PersonForms_autogen/mocs_compilation.cpp.o	c6836a6d81fddf09
+2	12	1713778321898843995	/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/PersonForms_autogen/timestamp	ebc221034cb82a87

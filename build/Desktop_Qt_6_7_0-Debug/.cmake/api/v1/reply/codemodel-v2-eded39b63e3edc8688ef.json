@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-51512c9e7d318ef9355d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PersonForms",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PersonForms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PersonForms-Debug-3ae32274411340b0db39.json",
+					"name" : "PersonForms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PersonForms_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PersonForms_autogen-Debug-a9653f1fcf770447ed03.json",
+					"name" : "PersonForms_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PersonForms_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PersonForms_autogen_timestamp_deps-Debug-6ad0b7175886bc0a607f.json",
+					"name" : "PersonForms_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug",
+		"source" : "/home/kirill/QtProjects/PersonForms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

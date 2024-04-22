@@ -1,0 +1,9 @@
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/PersonForms.dir
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/edit_cache.dir
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/rebuild_cache.dir
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/list_install_components.dir
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/install.dir
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/install/local.dir
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/install/strip.dir
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/PersonForms_autogen_timestamp_deps.dir
+/home/kirill/QtProjects/PersonForms/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/PersonForms_autogen.dir
