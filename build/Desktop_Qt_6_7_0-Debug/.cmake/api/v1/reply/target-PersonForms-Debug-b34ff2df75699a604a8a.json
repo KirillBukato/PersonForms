@@ -71,13 +71,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 69,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 52,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
@@ -380,7 +380,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				6
+				7
 			]
 		},
 		{
@@ -389,14 +389,15 @@
 			[
 				4,
 				5,
-				7
+				6,
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				8
+				9
 			]
 		}
 	],
@@ -434,6 +435,11 @@
 		{
 			"backtrace" : 4,
 			"path" : "PersonForms_en_US.ts",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "README.md",
 			"sourceGroupIndex" : 2
 		},
 		{
