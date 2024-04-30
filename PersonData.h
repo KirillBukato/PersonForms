@@ -3,7 +3,7 @@
 
 #include "BodyData.h"
 
-#include <string>
+#include <QString>
 
 enum SkinColor {
     light_skin,
@@ -26,9 +26,11 @@ struct PersonData {
     SkinColor skin_color;
     EyeColor eye_color;
     HairColor hair_color;
-    std::string face_shape;
-    std::string eye_shape;
-    std::string social_status;
+    QString face_shape;
+    QString eye_shape;
+    QString face_features;
+    QString body_features;
+    QString social_status;
     BodyData body_data;
 };
 

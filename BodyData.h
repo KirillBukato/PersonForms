@@ -5,6 +5,13 @@
 #ifndef PERSONFORMS_BODYDATA_H
 #define PERSONFORMS_BODYDATA_H
 
+enum WeightType {
+    UNDER_WEIGHT,
+    NORMAL,
+    OVER_WEIGHT,
+    OBESE
+};
+
 struct BodyData {
     double weight;
     double height;
@@ -16,9 +23,7 @@ struct BodyData {
     double visceral_fat;
     double basal_metabolism;
     double bmi;
-    int chest_girth;
-    int waist_girth;
-    int shoulder_girth;
+
 };
 
 #endif //PERSONFORMS_BODYDATA_H
