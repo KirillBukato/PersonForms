@@ -1,6 +1,10 @@
 #ifndef PERSONDATA_H
 #define PERSONDATA_H
 
+#include "BodyData.h"
+
+#include <string>
+
 enum SkinColor {
     light_skin,
     dark_skin
@@ -18,14 +22,14 @@ enum HairColor {
 };
 
 struct PersonData {
-    int height;
-    int weight;
-    int chest_girth;
-    int waist_girth;
-    int shoulder_girth;
+    int age;
     SkinColor skin_color;
     EyeColor eye_color;
     HairColor hair_color;
+    std::string face_shape;
+    std::string eye_shape;
+    std::string social_status;
+    BodyData body_data;
 };
 
 #endif // PERSONDATA_H
