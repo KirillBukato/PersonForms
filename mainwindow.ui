@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>602</width>
-    <height>749</height>
+    <height>725</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@
       <string>Weight</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
+    <widget class="QLineEdit" name="weightEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -71,7 +71,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="heightEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -107,7 +107,7 @@
       <string>Body fat</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_3">
+    <widget class="QLineEdit" name="bodyfatEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -117,7 +117,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_4">
+    <widget class="QLineEdit" name="muscleEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -153,7 +153,7 @@
       <string>Water</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_5">
+    <widget class="QLineEdit" name="waterEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -176,7 +176,7 @@
       <string>Protein</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_11">
+    <widget class="QLineEdit" name="proteinEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -186,7 +186,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_12">
+    <widget class="QLineEdit" name="boneMassEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -222,7 +222,7 @@
       <string>Visceral fat</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_13">
+    <widget class="QLineEdit" name="visceralFatEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -232,7 +232,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_14">
+    <widget class="QLineEdit" name="basalMetabolismEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -268,7 +268,7 @@
       <string>BMI</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_15">
+    <widget class="QLineEdit" name="bmiEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -278,7 +278,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox_2">
+    <widget class="QComboBox" name="bodyTypeCombobox">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -452,19 +452,24 @@
       </rect>
      </property>
      <property name="currentText">
-      <string>Light</string>
+      <string>Brown</string>
      </property>
      <property name="placeholderText">
       <string/>
      </property>
      <item>
       <property name="text">
-       <string>Light</string>
+       <string>Brown</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string>Dark</string>
+       <string>Green</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blue</string>
       </property>
      </item>
     </widget>

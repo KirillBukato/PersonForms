@@ -23,7 +23,7 @@ struct BodyData {
     double visceral_fat;
     double basal_metabolism;
     double bmi;
-
+    WeightType weight_type;
 };
 
 #endif //PERSONFORMS_BODYDATA_H
