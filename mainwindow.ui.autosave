@@ -14,8 +14,8 @@
    <string>Person form</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
        <number>0</number>
@@ -23,7 +23,7 @@
       <widget class="QWidget" name="page">
        <layout class="QVBoxLayout" name="verticalLayout_5">
         <item>
-         <widget class="QFrame" name="frame_2">
+         <widget class="QFrame" name="persondataFrame">
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
           </property>
@@ -31,6 +31,13 @@
            <enum>QFrame::Raised</enum>
           </property>
           <layout class="QGridLayout" name="gridLayout">
+           <item row="20" column="0">
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string>Next page</string>
+             </property>
+            </widget>
+           </item>
            <item row="0" column="0">
             <widget class="QLabel" name="label_8">
              <property name="font">
@@ -44,7 +51,7 @@
              </property>
             </widget>
            </item>
-           <item row="13" column="0">
+           <item row="14" column="0">
             <widget class="QLabel" name="label_19">
              <property name="text">
               <string>Face features</string>
@@ -83,7 +90,7 @@
              </item>
             </widget>
            </item>
-           <item row="9" column="0">
+           <item row="10" column="0">
             <widget class="QLabel" name="label_13">
              <property name="text">
               <string>Face shape</string>
@@ -96,9 +103,6 @@
               <string>Skin color</string>
              </property>
             </widget>
-           </item>
-           <item row="2" column="0">
-            <widget class="QSpinBox" name="spinBox"/>
            </item>
            <item row="6" column="0">
             <widget class="QComboBox" name="comboBox_3">
@@ -125,10 +129,10 @@
              </item>
             </widget>
            </item>
-           <item row="18" column="0">
+           <item row="19" column="0">
             <widget class="QLineEdit" name="lineEdit_19"/>
            </item>
-           <item row="10" column="0">
+           <item row="11" column="0">
             <widget class="QLineEdit" name="lineEdit_6"/>
            </item>
            <item row="5" column="0">
@@ -138,10 +142,10 @@
              </property>
             </widget>
            </item>
-           <item row="14" column="0">
+           <item row="15" column="0">
             <widget class="QLineEdit" name="lineEdit_18"/>
            </item>
-           <item row="8" column="0">
+           <item row="9" column="0">
             <widget class="QComboBox" name="comboBox_4">
              <property name="currentText">
               <string>Light</string>
@@ -161,7 +165,7 @@
              </item>
             </widget>
            </item>
-           <item row="16" column="0">
+           <item row="17" column="0">
             <widget class="QLineEdit" name="lineEdit_16"/>
            </item>
            <item row="1" column="0">
@@ -171,36 +175,32 @@
              </property>
             </widget>
            </item>
-           <item row="12" column="0">
+           <item row="13" column="0">
             <widget class="QLineEdit" name="lineEdit_17"/>
            </item>
-           <item row="17" column="0">
+           <item row="18" column="0">
             <widget class="QLabel" name="label_22">
              <property name="text">
               <string>Social status</string>
              </property>
             </widget>
            </item>
-           <item row="11" column="0">
+           <item row="12" column="0">
             <widget class="QLabel" name="label_21">
              <property name="text">
               <string>Eye shape</string>
              </property>
             </widget>
            </item>
-           <item row="15" column="0">
+           <item row="16" column="0">
             <widget class="QLabel" name="label_20">
              <property name="text">
               <string>Body features</string>
              </property>
             </widget>
            </item>
-           <item row="19" column="0">
-            <widget class="QPushButton" name="pushButton_2">
-             <property name="text">
-              <string>Next page</string>
-             </property>
-            </widget>
+           <item row="2" column="0">
+            <widget class="QLineEdit" name="lineEdit"/>
            </item>
           </layout>
          </widget>
@@ -210,7 +210,7 @@
       <widget class="QWidget" name="page_2">
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QFrame" name="frame">
+         <widget class="QFrame" name="bodydataFrame">
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
           </property>

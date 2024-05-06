@@ -22,3 +22,8 @@ void MainWindow::on_pushButton_clicked()
     };
 }
 
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(ui->stackedWidget->currentIndex() + 1);
+}
