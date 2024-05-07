@@ -25,10 +25,10 @@
         <item>
          <widget class="QFrame" name="frame_2">
           <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
+           <enum>QFrame::Shape::StyledPanel</enum>
           </property>
           <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
+           <enum>QFrame::Shadow::Raised</enum>
           </property>
           <layout class="QGridLayout" name="gridLayout">
            <item row="0" column="0">
@@ -212,10 +212,10 @@
         <item>
          <widget class="QFrame" name="frame">
           <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
+           <enum>QFrame::Shape::StyledPanel</enum>
           </property>
           <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
+           <enum>QFrame::Shadow::Raised</enum>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_3">
            <item>
@@ -250,6 +250,48 @@
            </item>
            <item>
             <widget class="QLineEdit" name="heightEdit"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>Chest girth</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="chestGirthEdit">
+             <property name="inputMethodHints">
+              <set>Qt::InputMethodHint::ImhFormattedNumbersOnly</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_24">
+             <property name="text">
+              <string>Waist girth</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="waistGirthEdit">
+             <property name="inputMethodHints">
+              <set>Qt::InputMethodHint::ImhFormattedNumbersOnly</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_25">
+             <property name="text">
+              <string>Hip girth</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="hipGirthEdit">
+             <property name="inputMethodHints">
+              <set>Qt::InputMethodHint::ImhFormattedNumbersOnly</set>
+             </property>
+            </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_3">

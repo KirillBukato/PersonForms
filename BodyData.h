@@ -16,6 +16,9 @@ struct BodyData {
     double weight;
     double height;
     double body_fat;
+    double chest_girth;
+    double waist_girth;
+    double hip_girth;
     double muscle;
     double water;
     double protein;
