@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "./ui_mainwindow.h"
+#include "PersonForms/ui_mainwindow.h"
 
 #include "BodyData.h"
 
@@ -39,9 +39,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    BodyData bodydata {
-
-    };
 }
 
 
