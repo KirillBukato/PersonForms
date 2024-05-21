@@ -1,7 +1,5 @@
-#ifndef PERSONDATA_H
-#define PERSONDATA_H
-
-#include "BodyData.h"
+#ifndef GENERALDATA_H
+#define GENERALDATA_H
 
 #include <QString>
 
@@ -21,7 +19,7 @@ enum HairColor {
     dark_hair
 };
 
-struct PersonData {
+struct GeneralData {
     int age;
     SkinColor skin_color;
     EyeColor eye_color;
@@ -31,7 +29,6 @@ struct PersonData {
     QString face_features;
     QString body_features;
     QString social_status;
-    BodyData body_data;
 };
 
-#endif // PERSONDATA_H
+#endif //GENERALDATA_H

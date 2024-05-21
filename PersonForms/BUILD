@@ -20,7 +20,10 @@ qt_cc_library(
         "mainwindow.cpp",
     ],
     hdrs = [
-         "PersonData.h", "BodyData.h", "mainwindow.h"
+         "PersonData.h",
+         "GeneralData.h",
+         "BodyData.h",
+         "mainwindow.h"
     ],
     deps = [
         ":mainwindow_ui",

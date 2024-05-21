@@ -21,7 +21,9 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked();
+    void on_nextPageButton_clicked();
+
+    void on_prevPageButton_clicked();
 
 private:
     Ui::MainWindow *ui;
