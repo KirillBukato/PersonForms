@@ -7,9 +7,6 @@
 
 #include <array>
 
-std::array<QLineEdit*, 11> lineEdits;
-GeneralData* generalData;
-
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -19,21 +16,19 @@ MainWindow::MainWindow(QWidget *parent)
 
     qDoubleValidator.setNotation(QDoubleValidator::ScientificNotation);
 
-    lineEdits = {
-        ui->weightEdit,
-        ui->heightEdit,
-        ui->chestGirthEdit,
-        ui->waistGirthEdit,
-        ui->hipGirthEdit,
-        ui->bodyfatEdit,
-        ui->muscleEdit,
-        ui->proteinEdit,
-        ui->visceralFatEdit,
-        ui->basalMetabolismEdit,
-        ui->bmiEdit
-    };
-
-    for (QLineEdit* edit : lineEdits) {
+    for (QLineEdit* edit : {
+            ui->weightEdit,
+            ui->heightEdit,
+            ui->chestGirthEdit,
+            ui->waistGirthEdit,
+            ui->hipGirthEdit,
+            ui->bodyfatEdit,
+            ui->muscleEdit,
+            ui->proteinEdit,
+            ui->visceralFatEdit,
+            ui->basalMetabolismEdit,
+            ui->bmiEdit
+    }) {
         edit->setValidator(&qDoubleValidator);
     }
 /*
@@ -55,7 +50,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    BodyData bodyData = {
+    /*BodyData bodyData = {
         ui->weightEdit->text().toDouble(),
         ui->heightEdit->text().toDouble(),
         ui->chestGirthEdit->text().toDouble(),
@@ -69,14 +64,12 @@ void MainWindow::on_pushButton_clicked()
         ui->basalMetabolismEdit->text().toDouble(),
         ui->bmiEdit->text().toDouble(),
         WeightType(ui->bodyTypeCombobox->currentIndex())
-    };
+    };*/
 }
 
 
 void MainWindow::on_nextPageButton_clicked()
 {
-    GeneralData* pGeneralData = new GeneralData();
-
 
     ui->stackedWidget->setCurrentIndex(ui->stackedWidget->currentIndex() + 1);
 }

@@ -4,6 +4,15 @@
 #include <QMainWindow>
 #include <QDoubleValidator>
 
+#include <array>
+
+#include <QLineEdit>
+
+#include "BodyData.h"
+#include "GeneralData.h"
+#include "PersonData.h"
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -28,5 +37,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QDoubleValidator qDoubleValidator;
+    GeneralData* generalData;
+    BodyData* bodyData;
 };
 #endif // MAINWINDOW_H
